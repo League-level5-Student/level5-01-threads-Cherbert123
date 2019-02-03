@@ -12,7 +12,7 @@ public class ThreadPoolTest {
 
 	@Test
 	public void test() {
-		int total = 100000;
+		int total = 10000;
 		int cores = Runtime.getRuntime().availableProcessors();
 		ThreadPool tp = new ThreadPool(4);
 		char[] chars = new char[total];
